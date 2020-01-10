@@ -1,0 +1,19 @@
+name: "testing"
+output_dir: "."
+navbar:
+  title: "Statistical Foundations"
+  left:
+    - text: "Sylabus"
+    - text: "Schedule"
+    - text: "Textbook"
+    - text: "Encyclopedia"
+  right:
+    - icon: fa-envelope fa-lg
+    - icon: fa-github fa-lg
+      href: http://github.com/sarbearschawrtz
+    - icon: fa-twitter fa-lg
+      href: https://twitter.com/statstudio
+output:
+  html_document:
+    theme: paper
+    css: 'styles.css'
